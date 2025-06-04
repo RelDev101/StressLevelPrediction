@@ -1,0 +1,80 @@
+====== Model: KNN ======
+
+Cross‐Validation (5‐fold) Accuracy: 1.0000 ± 0.0000
+
+Test Set Accuracy: 1.0000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        25
+           1       1.00      1.00      1.00        25
+           2       1.00      1.00      1.00        25
+           3       1.00      1.00      1.00        26
+           4       1.00      1.00      1.00        25
+
+    accuracy                           1.00       126
+   macro avg       1.00      1.00      1.00       126
+weighted avg       1.00      1.00      1.00       126
+
+Confusion Matrix:
+[[25  0  0  0  0]
+ [ 0 25  0  0  0]
+ [ 0  0 25  0  0]
+ [ 0  0  0 26  0]
+ [ 0  0  0  0 25]]
+----------------------------------------
+
+====== Model: SVM ======
+
+Cross‐Validation (5‐fold) Accuracy: 1.0000 ± 0.0000
+
+Test Set Accuracy: 1.0000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        25
+           1       1.00      1.00      1.00        25
+           2       1.00      1.00      1.00        25
+           3       1.00      1.00      1.00        26
+           4       1.00      1.00      1.00        25
+
+    accuracy                           1.00       126
+   macro avg       1.00      1.00      1.00       126
+weighted avg       1.00      1.00      1.00       126
+
+Confusion Matrix:
+[[25  0  0  0  0]
+ [ 0 25  0  0  0]
+ [ 0  0 25  0  0]
+ [ 0  0  0 26  0]
+ [ 0  0  0  0 25]]
+----------------------------------------
+
+====== Model: Decision Tree ======
+
+Cross‐Validation (5‐fold) Accuracy: 0.9921 ± 0.0097
+
+Test Set Accuracy: 0.9683
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98        25
+           1       0.96      0.96      0.96        25
+           2       0.93      1.00      0.96        25
+           3       0.96      0.96      0.96        26
+           4       1.00      0.96      0.98        25
+
+    accuracy                           0.97       126
+   macro avg       0.97      0.97      0.97       126
+weighted avg       0.97      0.97      0.97       126
+
+Confusion Matrix:
+[[24  1  0  0  0]
+ [ 0 24  1  0  0]
+ [ 0  0 25  0  0]
+ [ 0  0  1 25  0]
+ [ 0  0  0  1 24]]
+----------------------------------------
